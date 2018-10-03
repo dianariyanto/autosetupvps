@@ -40,7 +40,7 @@ a2enmod ssl
 a2ensite default-ssl
 
 echo -e "$Cyan \n Verifying installs$Color_Off"
-sudo apt-get install apache2 php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-curl php-memcache php7.2-opcache php-apcu mariadb-server mariadb-client phpmyadmin -y
+sudo apt-get install apache2 php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-curl php-memcache php7.2-opcache php-apcu php-pear php-gd memcached mariadb-server mariadb-client phpmyadmin -y
 
 ## TWEAKS and Settings
 # Permissions
