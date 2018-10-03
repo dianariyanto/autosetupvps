@@ -26,7 +26,7 @@ echo -e "$Cyan \n Installing Apache2 $Color_Off"
 sudo apt-get install apache2 -y
 
 echo -e "$Cyan \n Installing PHP7.0 & Requirements $Color_Off"
-sudo apt-get install php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-curl php-memcache php7.2-opcache php-apcu -y
+sudo apt-get install php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-curl php-memcache php7.2-opcache php-apcu php-pear php-gd memcached -y
 
 echo -e "$Cyan \n Installing MariaDB $Color_Off"
 sudo apt-get install mariadb-server mariadb-client -y
